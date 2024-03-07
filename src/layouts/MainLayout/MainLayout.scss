@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  min-height: 100vh;
+
+  > :first-child {
+    grid-column: 1 / -1;
+  }
+}

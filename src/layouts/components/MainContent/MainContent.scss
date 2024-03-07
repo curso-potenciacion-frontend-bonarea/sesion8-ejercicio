@@ -1,0 +1,7 @@
+@use "/src/styles/utils";
+
+.main-content {
+  @include utils.box();
+  margin: 0 auto;
+  width: 800px;
+}
